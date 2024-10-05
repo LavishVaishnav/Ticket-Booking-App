@@ -1,41 +1,61 @@
 [
     {
-        "train_id": "bacs",
-        "train_no": 12345,
+        "train_id": "123A",
+        "train_no": 54321,
         "seats": [
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0]
+            [1, 0, 0, 1, 0, 1],
+            [0, 1, 0, 1, 0, 0],
+            [1, 0, 1, 0, 0, 1],
+            [0, 1, 0, 0, 1, 1]
         ],
         "station_times": {
-            "bangalore": "13:50:00",
-            "jaipur": "13:50:00",
-            "delhi": "13:50:00"
+            "bangalore": "08:30:00",
+            "mumbai": "14:20:00",
+            "delhi": "22:15:00"
         },
         "stations": [
             "bangalore",
-            "jaipur",
+            "mumbai",
             "delhi"
         ]
     },
     {
-        "train_id": "bacs",
-        "train_no": 12345,
+        "train_id": "456B",
+        "train_no": 98765,
         "seats": [
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0]
+            [0, 0, 0, 1, 1, 1],
+            [1, 1, 1, 0, 0, 1],
+            [0, 0, 0, 0, 1, 1],
+            [1, 0, 1, 1, 1, 0]
         ],
         "station_times": {
-            "bangalore": "13:50:00",
-            "jaipur": "13:50:00",
-            "delhi": "13:50:00"
+            "chennai": "05:15:00",
+            "bangalore": "11:45:00",
+            "hyderabad": "19:00:00"
         },
         "stations": [
+            "chennai",
             "bangalore",
-            "jaipur",
+            "hyderabad"
+        ]
+    },
+    {
+        "train_id": "789C",
+        "train_no": 65432,
+        "seats": [
+            [0, 0, 1, 1, 1, 0],
+            [1, 1, 0, 0, 1, 1],
+            [0, 1, 0, 1, 0, 0],
+            [1, 0, 0, 0, 1, 1]
+        ],
+        "station_times": {
+            "kolkata": "06:30:00",
+            "patna": "13:45:00",
+            "delhi": "22:50:00"
+        },
+        "stations": [
+            "kolkata",
+            "patna",
             "delhi"
         ]
     }
